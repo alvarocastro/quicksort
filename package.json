@@ -1,0 +1,29 @@
+{
+  "name": "@alvarocastro/quicksort",
+  "version": "0.0.1",
+  "description": "An implementation of the quicksort algorithm",
+  "main": "quicksort.js",
+  "scripts": {
+    "performance": "node performance.js",
+    "test": "semistandard && nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarocastro/quicksort.git"
+  },
+  "keywords": [
+    "quicksort"
+  ],
+  "author": "Alvaro Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvarocastro/quicksort/issues"
+  },
+  "homepage": "https://github.com/alvarocastro/quicksort#readme",
+  "devDependencies": {
+    "ava": "^2.3.0",
+    "coveralls": "^3.0.6",
+    "nyc": "^14.1.1",
+    "semistandard": "^14.0.1"
+  }
+}
