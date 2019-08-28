@@ -11,7 +11,7 @@ const perfTest = function (count, testNumber) {
 
   process.stdout.write(`#${testNumber} - ${count} numbers`);
   const start = +new Date();
-  const res = qs(d);
+  qs(d);
   const end = +new Date();
   process.stdout.write(`: ${end - start}ms\n`);
 };
