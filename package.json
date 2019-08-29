@@ -2,7 +2,7 @@
   "name": "@alvarocastro/quicksort",
   "version": "0.0.1",
   "description": "An implementation of the quicksort algorithm",
-  "main": "quicksort.js",
+  "main": "index.js",
   "scripts": {
     "performance": "node performance.js",
     "test": "xo && nyc ava",
