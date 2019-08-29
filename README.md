@@ -41,7 +41,7 @@ List of elements to sort.
 #### compare
 
 Type: `Function`
-Default: `[comparatorAscending](blob/master/utils.js#L2)`
+Default: [comparatorAscending](utils.js#L2)
 
 The function to use to compare two elements and find their sorting order.
 The expected return of the function is:
@@ -49,12 +49,12 @@ The expected return of the function is:
 * `1` to sort the element to the right.
 * `0` when the elements are the same, no sorting is made.
 
-A descending function is also provided in [utils.js](blob/master/utils.js).
+A descending function is also provided in [utils.js](utils.js).
 
 #### getPivot
 
 Type: `Function`
-Default: `[pickMiddleValue](blob/master/utils.js#L20)`
+Default: [pickMiddleValue](utils.js#L20)
 
 The function to use to pick a _pivot_ value from the array.
 The expected return of the function is one element from the array being sorted.
