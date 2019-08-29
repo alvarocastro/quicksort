@@ -40,7 +40,7 @@ List of elements to sort.
 
 #### compare
 
-Type: `Function`
+Type: `Function`<br>
 Default: [comparatorAscending](utils.js#L2)
 
 The function to use to compare two elements and find their sorting order.
@@ -53,7 +53,7 @@ A descending function is also provided in [utils.js](utils.js).
 
 #### getPivot
 
-Type: `Function`
+Type: `Function`<br>
 Default: [pickMiddleValue](utils.js#L20)
 
 The function to use to pick a _pivot_ value from the array.
