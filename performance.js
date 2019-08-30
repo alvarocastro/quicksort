@@ -11,16 +11,22 @@ const perfTest = function (c, n) {
 		d.push((Math.random() * 2) - 1);
 	}
 
-	process.stdout.write(`#${n} - ${c} numbers`);
-	const start = Number(new Date());
+	let start, end;
+	process.stdout.write(`#${n} - ${c} numbers\n`);
+	start = Number(new Date());
 	qs(d);
-	const end = Number(new Date());
-	process.stdout.write(`: ${end - start}ms\n`);
+	end = Number(new Date());
+	process.stdout.write(`> Quicksort: ${end - start}ms\n`);
+
+	start = Number(new Date());
+	d.sort();
+	end = Number(new Date());
+	process.stdout.write(`> Array.sort: ${end - start}ms\n`);
 };
 
 process.stdout.write('Sorting random numbers generated in the range [-1,1]:\n');
 let n = 0;
-for (let i = 1; i <= 1000000; i *= 10) {
+for (let i = 10; i <= 1000000; i *= 10) {
 	n++;
 	perfTest(i, n);
 }

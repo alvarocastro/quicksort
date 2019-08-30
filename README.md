@@ -65,6 +65,29 @@ Want to test the performance?
 
 Included is the command `npm run performance` that will run a battery of profiled tests for your needs.
 
+Here is an example of the output (YMMV depending your hardware)
+```
+Sorting random numbers generated in the range [-1,1]:
+#1 - 10 numbers
+> Quicksort: 1ms
+> Array.sort: 1ms
+#2 - 100 numbers
+> Quicksort: 0ms
+> Array.sort: 1ms
+#3 - 1000 numbers
+> Quicksort: 16ms
+> Array.sort: 15ms
+#4 - 10000 numbers
+> Quicksort: 31ms
+> Array.sort: 103ms
+#5 - 100000 numbers
+> Quicksort: 474ms
+> Array.sort: 890ms
+#6 - 1000000 numbers
+> Quicksort: 2803ms
+> Array.sort: 11591ms
+```
+
 ## More examples
 
 ### Reverse order
