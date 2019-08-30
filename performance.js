@@ -11,7 +11,8 @@ const perfTest = function (c, n) {
 		d.push((Math.random() * 2) - 1);
 	}
 
-	let start, end;
+	let start;
+	let end;
 	process.stdout.write(`#${n} - ${c} numbers\n`);
 	start = Number(new Date());
 	qs(d);
