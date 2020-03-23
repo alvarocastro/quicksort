@@ -23,7 +23,7 @@ module.exports = {
 		return 0;
 	},
 
-	pickMiddleValue(arr) {
-		return arr[Math.floor(arr.length / 2)];
+	pickMiddleValue(array) {
+		return array[Math.floor(array.length / 2)];
 	}
 };

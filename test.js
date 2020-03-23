@@ -85,8 +85,8 @@ test('Should work with a custom comparator', t => {
 test('Should work with a custom pivot function', t => {
 	const value = [5, 2, 4, 1, 4];
 	const expected = [1, 2, 4, 4, 5];
-	const getPivot = function (arr) {
-		return arr[0];
+	const getPivot = function (array) {
+		return array[0];
 	};
 
 	t.deepEqual(qs(value, undefined, getPivot), expected);
