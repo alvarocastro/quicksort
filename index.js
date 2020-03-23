@@ -1,23 +1,23 @@
 const {comparatorAscending, pickMiddleValue} = require('./utils');
 
-const qs = function (arr, compare = comparatorAscending, getPivot = pickMiddleValue) {
-	if (arr.length < 2) {
-		return arr;
+const qs = function (array, compare = comparatorAscending, getPivot = pickMiddleValue) {
+	if (array.length < 2) {
+		return array;
 	}
 
-	const pivot = getPivot(arr);
+	const pivot = getPivot(array);
 	const left = [];
 	const equal = [];
 	const right = [];
 
-	for (const el of arr) {
-		const r = compare(el, pivot);
+	for (const element of array) {
+		const r = compare(element, pivot);
 		if (r < 0) {
-			left.push(el);
+			left.push(element);
 		} else if (r > 0) {
-			right.push(el);
+			right.push(element);
 		} else {
-			equal.push(el);
+			equal.push(element);
 		}
 	}
 
