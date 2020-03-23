@@ -13,7 +13,9 @@
     "url": "git+https://github.com/alvarocastro/quicksort.git"
   },
   "keywords": [
-    "quicksort"
+    "quicksort",
+    "sort",
+    "algorithm"
   ],
   "author": "Alvaro Castro",
   "license": "MIT",
