@@ -1,8 +1,9 @@
 # Quicksort
 [![NPM](https://img.shields.io/npm/v/@alvarocastro/quicksort.svg)](https://www.npmjs.com/package/@alvarocastro/quicksort)
 [![Build Status](https://travis-ci.org/alvarocastro/quicksort.svg?branch=master)](https://travis-ci.org/alvarocastro/quicksort)
-[![codebeat badge](https://codebeat.co/badges/155a70c2-4faa-4adc-b4fd-228fd86f3e43)](https://codebeat.co/projects/github-com-alvarocastro-quicksort-master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d39e4b6b084a6a357987/maintainability)](https://codeclimate.com/github/alvarocastro/quicksort/maintainability)
 [![Coverage Status](https://coveralls.io/repos/github/alvarocastro/quicksort/badge.svg?branch=master)](https://coveralls.io/github/alvarocastro/quicksort?branch=master)
+[![Bundle Size](https://badgen.net/bundlephobia/min/@alvarocastro/quicksort)](https://bundlephobia.com/result?p=@alvarocastro/quicksort)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
 Yet another implementation of quicksort in JavaScript aimed to be flexible, lightweight and fast.
@@ -11,6 +12,8 @@ Yet another implementation of quicksort in JavaScript aimed to be flexible, ligh
 - [Usage](#usage)
 - [Performance](#performance)
 - [More examples](#more-examples)
+- [Contributing](#contributing)
+- [Support](#support)
 
 ## Install
 
@@ -130,3 +133,11 @@ sort(elements, comparator);
 // {name: 'T-1000', firstAppearance: 'Terminator 2: Judgement Day'}
 // ]
 ```
+
+## Contributing
+
+Contributions are always welcome! Please run `npm test` before hand to ensure everything is ok.
+
+## Support
+
+If you use this package please consider starring it :)
