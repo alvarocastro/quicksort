@@ -1,6 +1,6 @@
 {
   "name": "@alvarocastro/quicksort",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An implementation of the quicksort algorithm",
   "main": "index.js",
   "scripts": {
