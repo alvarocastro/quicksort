@@ -1,12 +1,11 @@
 {
   "name": "@alvarocastro/quicksort",
-  "version": "1.0.4",
+  "version": "0.0.0-development",
   "description": "An implementation of the quicksort algorithm",
   "main": "index.js",
   "scripts": {
     "performance": "node performance.js",
-    "test": "xo && nyc ava",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "xo && nyc ava"
   },
   "repository": {
     "type": "git",
@@ -27,6 +26,7 @@
     "ava": "3.12.1",
     "coveralls": "3.1.0",
     "nyc": "15.1.0",
+    "semantic-release": "^17.1.2",
     "xo": "0.33.1"
   }
 }

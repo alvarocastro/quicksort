@@ -1,10 +1,12 @@
 # Quicksort
-[![NPM](https://img.shields.io/npm/v/@alvarocastro/quicksort.svg)](https://www.npmjs.com/package/@alvarocastro/quicksort)
-[![Build Status](https://travis-ci.org/alvarocastro/quicksort.svg?branch=master)](https://travis-ci.org/alvarocastro/quicksort)
-[![Maintainability](https://api.codeclimate.com/v1/badges/d39e4b6b084a6a357987/maintainability)](https://codeclimate.com/github/alvarocastro/quicksort/maintainability)
-[![Coverage Status](https://coveralls.io/repos/github/alvarocastro/quicksort/badge.svg?branch=master)](https://coveralls.io/github/alvarocastro/quicksort?branch=master)
-[![Bundle Size](https://badgen.net/bundlephobia/min/@alvarocastro/quicksort)](https://bundlephobia.com/result?p=@alvarocastro/quicksort)
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
+
+[![NPM](https://img.shields.io/npm/v/@alvarocastro/quicksort)](https://www.npmjs.com/package/@alvarocastro/quicksort)
+[![Build status](https://img.shields.io/github/workflow/status/alvarocastro/quicksort/build)](https://github.com/alvarocastro/quicksort/actions?query=workflow%3Abuild)
+[![Maintainability status](https://img.shields.io/codeclimate/maintainability/alvarocastro/quicksort)](https://codeclimate.com/github/alvarocastro/quicksort/maintainability)
+[![Coverage status](https://img.shields.io/coveralls/github/alvarocastro/quicksort)](https://coveralls.io/github/alvarocastro/quicksort?branch=master)
+[![Bundle size](https://img.shields.io/bundlephobia/min/@alvarocastro/quicksort)](https://bundlephobia.com/result?p=@alvarocastro/quicksort)
+[![Code style: XO](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
+[![Release: Semantic](https://img.shields.io/badge/%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 Yet another implementation of quicksort in JavaScript aimed to be flexible, lightweight and fast.
 
@@ -73,22 +75,22 @@ Here is an example of the output (YMMV depending your hardware)
 Sorting random numbers generated in the range [-1,1]:
 #1 - 10 numbers
 > Quicksort: 1ms
-> Array.sort: 1ms
+> Array.sort: 0ms
 #2 - 100 numbers
 > Quicksort: 0ms
 > Array.sort: 1ms
 #3 - 1000 numbers
-> Quicksort: 16ms
-> Array.sort: 15ms
+> Quicksort: 10ms
+> Array.sort: 1ms
 #4 - 10000 numbers
-> Quicksort: 31ms
-> Array.sort: 103ms
+> Quicksort: 17ms
+> Array.sort: 23ms
 #5 - 100000 numbers
-> Quicksort: 474ms
-> Array.sort: 890ms
+> Quicksort: 162ms
+> Array.sort: 422ms
 #6 - 1000000 numbers
-> Quicksort: 2803ms
-> Array.sort: 11591ms
+> Quicksort: 1523ms
+> Array.sort: 7164ms
 ```
 
 ## More examples
@@ -136,7 +138,7 @@ sort(elements, comparator);
 
 ## Contributing
 
-Contributions are always welcome! Please run `npm test` before hand to ensure everything is ok.
+Contributions are always welcome! Please run `npm test` beforehand to ensure everything is ok.
 
 ## Support
 
