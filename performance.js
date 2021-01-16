@@ -14,14 +14,14 @@ const perfTest = function (c, n) {
 	let start;
 	let end;
 	process.stdout.write(`#${n} - ${c} numbers\n`);
-	start = Number(new Date());
+	start = Date.now();
 	qs(d);
-	end = Number(new Date());
+	end = Date.now();
 	process.stdout.write(`> Quicksort: ${end - start}ms\n`);
 
-	start = Number(new Date());
+	start = Date.now();
 	d.sort();
-	end = Number(new Date());
+	end = Date.now();
 	process.stdout.write(`> Array.sort: ${end - start}ms\n`);
 };
 
